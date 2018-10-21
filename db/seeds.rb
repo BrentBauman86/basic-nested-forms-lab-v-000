@@ -7,4 +7,11 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-pizza = Recipe.new(title: pizza)
+pizza = Recipe.new(title: "pizza")
+pizza.save
+
+crust = Ingredient.new(name: "crust", quantity: "one")
+crust.save 
+
+
+
